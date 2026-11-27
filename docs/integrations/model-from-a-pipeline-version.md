@@ -2,7 +2,7 @@
 
 Every pipeline run that produces output saves a version: the output rows, their column names, a row count and a checksum. You can build a model on one specific version over the API or [Simba MCP](./simba-mcp.md), so the model records exactly which data it was fitted on.
 
-Building and running the pipeline itself is covered in [Connect your warehouse](./connect-your-warehouse.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `list_pipelines`, `list_pipeline_versions`, `get_recipe_draft_template`, `create_recipe_draft`, `publish_recipe_draft` and `launch_study_run`.
+Building and running the pipeline itself is covered in [Connect your warehouse](./connect-your-warehouse.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `list_pipelines`, `list_pipeline_versions`, `get_recipe_draft_template`, `create_recipe_draft`, `publish_recipe_draft` and `launch_study_run`.
 
 ## What a version pins
 

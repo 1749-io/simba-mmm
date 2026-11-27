@@ -2,7 +2,7 @@
 
 A study is a shared record of one modelling question: the recipes that were tried, every run they produced, how each run scored against a quality policy, and which model a person finally chose. Analysts in the application and agents over the API or MCP read and write the same study objects, so nothing about a study lives only in a chat.
 
-The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of every tool named below. The short [Studies workflow](../integrations/simba-mcp.md#a-studies-workflow) on the MCP page gives the seven-step summary; this page walks the lifecycle end to end.
+The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of every tool named below. The short [Studies workflow](../integrations/simba-mcp.md#a-studies-workflow) on the MCP page gives the seven-step summary; this page walks the lifecycle end to end.
 
 ## Create a study
 

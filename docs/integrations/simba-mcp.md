@@ -1,8 +1,8 @@
 # Simba MCP: shared workflows for analysts and agents
 
-The server reports its version and its tool list when a client connects. The generated reference at [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) lists every tool of the current release with its parameters and whether it reads or writes; it is rendered from the running server, so no count or version is typed by hand. The connected backend determines which operations are supported; installing the package does not upgrade that backend.
+The server reports its version and its tool list when a client connects. The generated reference at [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) lists every tool of the current release with its parameters and whether it reads or writes; it is rendered from the running server, so no count or version is typed by hand. The connected backend determines which operations are supported; installing the package does not upgrade that backend.
 
-The [open-source MCP server](https://github.com/getsimba-ai/simba-mcp) connects compatible AI clients to Simba's [Bayesian marketing mix models](../core-concepts/bayesian-modeling.md). Analysts and agents use the same backend services and persisted objects. Studies, recipe revisions, hashes, lineage, quality policies, evaluations and decisions live in the Simba database. MCP does not maintain another study store or run another modelling engine.
+The [open-source MCP server](https://github.com/1749-io/simba-mcp) connects compatible AI clients to Simba's [Bayesian marketing mix models](../core-concepts/bayesian-modeling.md). Analysts and agents use the same backend services and persisted objects. Studies, recipe revisions, hashes, lineage, quality policies, evaluations and decisions live in the Simba database. MCP does not maintain another study store or run another modelling engine.
 
 ## Connect a client
 
@@ -80,7 +80,7 @@ Add to `.cursor/mcp.json` in your project, or the global one under Settings → 
 
 ### Claude API (MCP connector, key)
 
-The Messages API's MCP connector authenticates with a token passed in the request, so use a key. Pass the server with `url: "https://demo.simba-mmm.com/mcp"` and `authorization_token` set to your key; see the [client configuration examples](https://github.com/getsimba-ai/simba-mcp#quick-start).
+The Messages API's MCP connector authenticates with a token passed in the request, so use a key. Pass the server with `url: "https://demo.simba-mmm.com/mcp"` and `authorization_token` set to your key; see the [client configuration examples](https://github.com/1749-io/simba-mcp#quick-start).
 
 ### Which method a client uses
 
@@ -135,13 +135,13 @@ A stale recipe version returns **412**: reload the current recipe, reconcile the
 
 For model results, begin with `sections="channel_summary,model_stats"`, then request additional evidence. Filter with `channels` and `max_grid_points` where applicable. Optional `max_response_bytes` returns **413** if the filtered JSON exceeds the limit, rather than presenting partial evidence. This check happens after backend download and excludes MCP envelope overhead. Study listings (runs, recipes, evaluations, decisions) return every row unless you pass `limit`; the response then carries `next_cursor`, which you send back unchanged as `cursor` for the next page.
 
-Releases so far have kept existing tool names, required inputs and default payloads, and have added new tools and response fields rather than changing existing ones; each release states what it keeps. See the [release notes](https://github.com/getsimba-ai/simba-mcp/releases) and the [architecture and compatibility guide](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/architecture.md).
+Releases so far have kept existing tool names, required inputs and default payloads, and have added new tools and response fields rather than changing existing ones; each release states what it keeps. See the [release notes](https://github.com/1749-io/simba-mcp/releases) and the [architecture and compatibility guide](https://github.com/1749-io/simba-mcp/blob/main/docs/architecture.md).
 
 ## Try a read-only check
 
 > Inspect my connected Simba backend capabilities and list my studies for the project I select. Summarize available workflow operations and any unknown capabilities. Do not upload data, create a model or launch a run.
 
-For setup problems, include the server version and tool names in a [public MCP issue](https://github.com/getsimba-ai/simba-mcp/issues), without credentials or private data, or contact [info@pymc-labs.com](mailto:info@pymc-labs.com).
+For setup problems, include the server version and tool names in a [public MCP issue](https://github.com/1749-io/simba-mcp/issues), without credentials or private data, or contact [info@pymc-labs.com](mailto:info@pymc-labs.com).
 
 ## Next steps
 

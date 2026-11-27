@@ -2,7 +2,7 @@
 
 An agent can run the budget optimizer on a completed model, constrain it per channel and per group of channels, choose revenue or profit as the objective, and read the result back as a table that also carries the historical plan it was compared against. Every run is saved with a stable `run_id`, so it can be listed, pinned and annotated later.
 
-Everything on this page is available through the API and through [Simba MCP](./simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `run_optimizer`, `get_optimizer_results`, `list_runs`, `update_run` and `set_run_pinned`. The wizard that does the same in the app is described in [Budget optimization](../platform-guide/budget-optimization.md).
+Everything on this page is available through the API and through [Simba MCP](./simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `run_optimizer`, `get_optimizer_results`, `list_runs`, `update_run` and `set_run_pinned`. The wizard that does the same in the app is described in [Budget optimization](../platform-guide/budget-optimization.md).
 
 ## Start a run
 

@@ -2,7 +2,7 @@
 
 A fitted model stores its results as named sections, and you read only the sections you ask for. Three of them are per-period tables: `actual_vs_model` (the KPI and the fitted value for each period), `coefficients` (spend, media units, sales and revenue per channel per period) and `contributions` (the decomposition of each period's KPI).
 
-Both the API and [Simba MCP](./simba-mcp.md) serve the same sections from the same stored results. The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_model_results` and the full list of sections it describes.
+Both the API and [Simba MCP](./simba-mcp.md) serve the same sections from the same stored results. The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_model_results` and the full list of sections it describes.
 
 ## Ask for the sections you need
 

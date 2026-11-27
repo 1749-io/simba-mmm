@@ -4,7 +4,7 @@ Simba keeps a record of every incrementality test a project has run: geo tests, 
 
 Tests are analysed in your own tool. Simba imports the result; it does not run geo or lift analyses itself.
 
-You can work with tests in the app (**Warehouse → Experiments → Incrementality tests**, and the model wizard), through the API, and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `list_incrementality_tests`, `get_incrementality_test`, `create_incrementality_test`, `import_incrementality_tests` and `create_model`.
+You can work with tests in the app (**Warehouse → Experiments → Incrementality tests**, and the model wizard), through the API, and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `list_incrementality_tests`, `get_incrementality_test`, `create_incrementality_test`, `import_incrementality_tests` and `create_model`.
 
 ## What a test record holds
 

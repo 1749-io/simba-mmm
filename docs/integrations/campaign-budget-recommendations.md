@@ -116,7 +116,7 @@ Pass the GET response's 64-character `context_key` as optional `expected_context
 
 Alternatively, replace `channel_daily_budgets` with a positive integer `optimizer_run_id`. Exactly one budget source is required. The saved run must belong to the same owner and model, be complete and retain compatible currency, model identity, explicit planning dates and cadence. Channel `PeriodSpend` totals are divided by the actual planning calendar days, then rounded to the currency minor unit. Provenance retains the unrounded daily equivalents. The observation window and the saved run's future planning window are different concepts.
 
-MCP uses `recommend_campaign_budgets` with the same fields, except `model_hash` replaces the HTTP body's `model`. The tools preserve the backend's refusals and provenance. See the [public MCP tool reference](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the installed contract.
+MCP uses `recommend_campaign_budgets` with the same fields, except `model_hash` replaces the HTTP body's `model`. The tools preserve the backend's refusals and provenance. See the [public MCP tool reference](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the installed contract.
 
 ### Reading the calculation response
 

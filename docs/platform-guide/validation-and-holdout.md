@@ -2,7 +2,7 @@
 
 Every fitted model reports a table of fit diagnostics, and a model that reserved a holdout also saves its predictions for that window. A Study turns those saved numbers into pass, fail or not-evaluated against a quality policy you declare before the run.
 
-Everything on this page except the holdout fraction itself is read or declared through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_model_results`, `create_quality_policy`, `evaluate_study_run`, `assess_study_validation_pair` and `declare_study_holdout_use`.
+Everything on this page except the holdout fraction itself is read or declared through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_model_results`, `create_quality_policy`, `evaluate_study_run`, `assess_study_validation_pair` and `declare_study_holdout_use`.
 
 ## Fit diagnostics a model reports
 
