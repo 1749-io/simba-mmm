@@ -2,7 +2,7 @@
 
 Simba can report the data you uploaded, not only a fitted model's results. You can ask for any date window, at any grain, and by brand, channel or market. For example: "store sales and TV spend in the North region for August, by week." Fitted model results can also be cut to a date window. Their channel summary is recalculated for that window, not filtered.
 
-Both features are available through the API and through [Simba MCP](./simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_data_report`, `upload_data` and `get_model_results`.
+Both features are available through the API and through [Simba MCP](./simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `get_data_report`, `upload_data` and `get_model_results`.
 
 ## Declare what each column is
 

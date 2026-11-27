@@ -177,7 +177,7 @@ How different teams and industries use Simba.
 
 ## Getting Help
 
-- **[GitHub Issues](https://github.com/getsimba-ai/simba-mmm/issues)** --- Bug reports, feature requests, documentation feedback
+- **[GitHub Issues](https://github.com/1749-io/simba-mmm/issues)** --- Bug reports, feature requests, documentation feedback
 - **Email**: info@pymc-labs.com
 - **Website**: [getsimba.ai](https://getsimba.ai)
 - **Start free**: [demo.simba-mmm.com/users/signup](https://demo.simba-mmm.com/users/signup)

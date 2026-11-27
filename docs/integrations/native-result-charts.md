@@ -1,6 +1,6 @@
 # Native result charts
 
-> **Available in [Simba MCP v0.16.0](https://github.com/getsimba-ai/simba-mcp/releases/tag/v0.16.0), published on [PyPI](https://pypi.org/project/simba-mcp/0.16.0/).** Your connected MCP server must provide v0.16.0 or a later compatible release, with a compatible backend and an MCP Apps-capable client. Package publication does not upgrade a hosted server: check its version and tool list. Native-client acceptance has not yet been observed and is recorded separately.
+> **Available in [Simba MCP v0.16.0](https://github.com/1749-io/simba-mcp/releases/tag/v0.16.0), published on [PyPI](https://pypi.org/project/simba-mcp/0.16.0/).** Your connected MCP server must provide v0.16.0 or a later compatible release, with a compatible backend and an MCP Apps-capable client. Package publication does not upgrade a hosted server: check its version and tool list. Native-client acceptance has not yet been observed and is recorded separately.
 
 Three read-only tools display existing results in hosts that support MCP Apps:
 
@@ -22,7 +22,7 @@ The view uses only returned values. Missing observations remain gaps. Legacy res
 
 Decomposition values are KPI units, not revenue. `Overlap` is a reconciliation term, not a channel. Allocation `Revenue` and `ROI` are decision quantities; `OptimizedEvalRevenue`, `OptimizedEvalROI`, `HistoricalRevenue` and `HistoricalROI` are accounting comparison quantities. These are presented in separate tables without computing uplift.
 
-See the [v0.16.0 tool reference](https://github.com/getsimba-ai/simba-mcp/blob/v0.16.0/docs/tools.md) for this version's chart contract. Compare it with your connected server's version and tool list before using the examples.
+See the [v0.16.0 tool reference](https://github.com/1749-io/simba-mcp/blob/v0.16.0/docs/tools.md) for this version's chart contract. Compare it with your connected server's version and tool list before using the examples.
 
 ## Compatibility and security
 

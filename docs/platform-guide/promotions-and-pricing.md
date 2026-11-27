@@ -2,7 +2,7 @@
 
 Promotions, price and distribution are not media, but they move the KPI, so you give them to the model as control columns. Each control gets its own per-period contribution in the results, and on a multiplicative model you choose the level that contribution is measured against.
 
-Controls are available through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `create_model` (`control_columns`, `control_priors`, `control_reference`, `link`, `attribution`) and `get_model_results`.
+Controls are available through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `create_model` (`control_columns`, `control_priors`, `control_reference`, `link`, `attribution`) and `get_model_results`.
 
 ## Add promotions, price and distribution as controls
 

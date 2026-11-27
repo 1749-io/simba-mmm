@@ -2,7 +2,7 @@
 
 A Simba model fits whichever KPI column you point it at: revenue, units, orders, sign-ups or a share. The likelihood you choose tells the model what kind of number that KPI is, and an operating margin turns the revenue the model attributes to media into profit.
 
-Both settings are available through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/getsimba-ai/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `create_model`, `get_model_results` and `run_optimizer`.
+Both settings are available through the API and through [Simba MCP](../integrations/simba-mcp.md). The MCP tool reference is generated from the running server: see [`docs/tools.md` in the simba-mcp repository](https://github.com/1749-io/simba-mcp/blob/main/docs/tools.md) for the exact parameters of `create_model`, `get_model_results` and `run_optimizer`.
 
 ## Choose a likelihood for your KPI
 
